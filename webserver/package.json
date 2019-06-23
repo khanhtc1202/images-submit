@@ -1,0 +1,26 @@
+{
+  "name": "images",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "khanhtc1202",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.5.3",
+    "express": "^4.17.1",
+    "multer": "^1.4.1",
+    "redis": "^2.8.0",
+    "sharp": "^0.22.1",
+    "uuid": "^3.3.2",
+    "uuid-validate": "^0.0.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha tests/*.js --exit"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-files": "^1.4.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.1.4"
+  }
+}
